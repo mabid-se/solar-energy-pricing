@@ -63,7 +63,6 @@ const BillingStepper = () => {
         setProgress = 96;
     }
 
-
     const moreInfoData = {
         monthlyBill: {
             head1: "100% Confidential",
@@ -102,6 +101,7 @@ const BillingStepper = () => {
             detail2: "No email lists with solarenergypricing.co,m.  We respect your privacy, and will only connect you to matching solar installers."
         }
     };
+    
     const getStepContent = (url) => {
         switch (url) {
             case steps[0]:

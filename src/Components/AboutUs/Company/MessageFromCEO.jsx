@@ -12,7 +12,7 @@ const MessageFromCEO = () => {
             <Container sx={{ marginTop: 6 }}>
                 <Grid container direction="row" justifyContent="center" alignItems="flex-start" marginY={3} paddingY={5} sx={{ background: "#f6faff" }} >
                     <Grid item xs={12} sm={3} md={4} lg={4} xl={4} paddingLeft={4}>
-                        <img src={ceoPhoto} alt="ceo-photo" width="80%" className="circledImage" />
+                        <img src={ceoPhoto} alt="ceo" width="80%" className="circledImage" />
                     </Grid>
 
                     <Grid item xs={12} sm={9} md={4} lg={8} xl={8} paddingRight={4}>
@@ -28,7 +28,7 @@ const MessageFromCEO = () => {
 
                 <Grid container direction="column" justifySelf="center" alignItems="center" sx={{ paddingX: 3, marginY: 13, }}>
                     <Grid item>
-                        <img src={quoteIcon} alt="quote-icon" />
+                        <img src={quoteIcon} alt="quote-ico" />
                     </Grid>
 
                     <Grid item marginTop={4}>

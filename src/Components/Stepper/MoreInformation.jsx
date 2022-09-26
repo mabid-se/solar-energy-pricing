@@ -12,7 +12,7 @@ const MoreInformation = (props) => {
                         <CardContent>
                             <Grid container justifyContent="center" alignItems="center" spacing={2}>
                                 <Grid item xs={4} sm={4} md={4} lg={4} xl={4} >
-                                    <img src="/lock.svg" width="100%" height="auto" />
+                                    <img src="/lock.svg" alt="lock-ico" width="100%" height="auto" />
                                 </Grid>
 
                                 <Grid item xs={8} sm={8} md={8} lg={8} xl={8}>

@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-    Box, Card, CardContent, Container, Grid, Typography, Button,
+    Card, CardContent, Container, Grid, Typography, Button,
     CardActions, List, ListItem, ListItemText, Divider
 } from "@mui/material";
 
@@ -12,12 +12,12 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import SavingsIcon from '@mui/icons-material/Savings';
 import GroupIcon from '@mui/icons-material/Group';
 import PaidIcon from '@mui/icons-material/Paid';
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 import "../../assets/CSS/RequestCompleted.css";
 
 const RequestCompleted = () => {
-    const navMe = useNavigate();
+    // const navMe = useNavigate();
 
     const gotoSiteHandler = () => {
         window.location.replace('https://google.com');
@@ -170,8 +170,9 @@ const RequestCompleted = () => {
                                         <Grid container
                                             direction="row" justifyContent="space-around" alignItems="center" spacing={2} >
                                             <Grid item xs={12} sm={12} md={2} lg={3} xl={3}>
-                                                <img width="150px" height="200px"
-                                                    src="https://www.thoughtco.com/thmb/1_chnMpM6_ryVnrzxueA39t3g3w=/3097x2323/smart/filters:no_upscale()/solar-panel-photovoltaic-installation-on-a-roof--alternative-electricity-source-884806548-5c5b67b9c9e77c000156659b.jpg" />
+                                                <img src="https://www.thoughtco.com/thmb/1_chnMpM6_ryVnrzxueA39t3g3w=/3097x2323/smart/filters:no_upscale()/solar-panel-photovoltaic-installation-on-a-roof--alternative-electricity-source-884806548-5c5b67b9c9e77c000156659b.jpg"
+                                                    alt="solor panels" width="150px" height="200px"
+                                                />
                                             </Grid>
 
                                             <Grid item xs={12} sm={12} md={8} lg={6} xl={7}>
@@ -207,7 +208,7 @@ const RequestCompleted = () => {
                                     </CardContent>
                                 </Card>
                             </Grid>
-                            
+
                             <Grid item>
                                 <Card elevation={3}>
                                     <CardContent>
@@ -218,8 +219,9 @@ const RequestCompleted = () => {
                                         <Grid container
                                             direction="row" justifyContent="space-around" alignItems="center" spacing={2} >
                                             <Grid item xs={12} sm={12} md={2} lg={3} xl={3}>
-                                                <img width="150px" height="200px"
-                                                    src="https://www.thoughtco.com/thmb/1_chnMpM6_ryVnrzxueA39t3g3w=/3097x2323/smart/filters:no_upscale()/solar-panel-photovoltaic-installation-on-a-roof--alternative-electricity-source-884806548-5c5b67b9c9e77c000156659b.jpg" />
+                                                <img src="https://www.thoughtco.com/thmb/1_chnMpM6_ryVnrzxueA39t3g3w=/3097x2323/smart/filters:no_upscale()/solar-panel-photovoltaic-installation-on-a-roof--alternative-electricity-source-884806548-5c5b67b9c9e77c000156659b.jpg"
+                                                    alt="solar panels" width="150px" height="200px"
+                                                />
                                             </Grid>
 
                                             <Grid item xs={12} sm={12} md={8} lg={6} xl={7}>

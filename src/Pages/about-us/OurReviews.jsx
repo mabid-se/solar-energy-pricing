@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import React from "react";
 
 import { Box, Container, Grid, Rating, Typography } from "@mui/material";
 
@@ -7,7 +8,8 @@ import Footer from "../../Components/Footer";
 import quoteIcon from "../../assets/images/quote.svg";
 
 const OurReviews = () => {
-    const [value, setValue] = useState(4.7);
+    // const [value, setValue] = useState(4.7);
+    const value = 4.7;
 
     const reviewsList = [
         {

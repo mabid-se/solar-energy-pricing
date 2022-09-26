@@ -10,7 +10,7 @@ const PhoneField = (props) => {
     const navMe = useNavigate();
     const [phoneNumber, SetPhoneNumber] = useState("");
     const [loading, SetLoading] = useState(false);
-    const [error, SetApiError] = useState("");
+    let [error, SetApiError] = useState("");
     const prevButton = () => {
         props.goBack();
     };
@@ -33,7 +33,8 @@ const PhoneField = (props) => {
             }
             else {
                 console.log("Server responds with error!");
-                const error = await response.data?.error;
+                // const error = await response.data?.error;
+                error = await response.data?.error;
                 SetApiError(error);
             }
         }

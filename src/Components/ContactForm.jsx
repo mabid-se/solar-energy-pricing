@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Grid, TextareaAutosize, TextField, Typography, } from "@mui/material";
+import { Box, Button, Grid, TextField, } from "@mui/material";
 
 const ContactForm = () => {
     return (
@@ -59,7 +59,7 @@ const ContactForm = () => {
                         rows={4}
                         variant="standard" />
                 </Grid>
-                
+
                 <Grid item marginY={2} paddingTop={2}>
                     <Button variant="contained" size="large">
                         submit

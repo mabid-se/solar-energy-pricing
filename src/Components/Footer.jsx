@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 
 import StartByZipCode from "./StartByZipCode";
 import RoundedInpSub from "./RoundedInputField";

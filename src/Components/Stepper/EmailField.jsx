@@ -20,7 +20,7 @@ const EmailField = (props) => {
     const progressValue = props.progValue;
 
     const emailValidation = () => {
-        if (email == "") {
+        if (email === "") {
             setMessage("Email can't be empty.")
         }
         else if (!validEmail.test(email)) {

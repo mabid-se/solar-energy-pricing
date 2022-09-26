@@ -8,7 +8,7 @@ const CustomCarousel = () => {
         <>
             <Grid container direction="column" justifyContent="center" alignItems="center">
                 <Grid item>
-                    <img src={howSolarWorks} alr="how-solar-works" />
+                    <img src={howSolarWorks} alt="how-solar-works" />
                 </Grid>
 
                 <Grid item>
