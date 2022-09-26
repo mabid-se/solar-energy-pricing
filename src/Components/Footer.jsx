@@ -48,7 +48,7 @@ const Footer = () => {
                                     </Typography>
 
                                     <Typography variant="body2" marginTop={2} color="white" textTransform="uppercase">
-                                        111 ABCSt. <br /> 1233331, ABC <br/> United States
+                                        111 ABCSt. <br /> 1233331, ABC <br /> United States
                                     </Typography>
                                 </Grid>
 

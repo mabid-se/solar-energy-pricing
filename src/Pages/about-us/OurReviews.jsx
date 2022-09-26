@@ -79,7 +79,6 @@ const OurReviews = () => {
                             </Grid>
                         </Grid>
 
-
                         {
                             Object.entries(reviewsList).map(
                                 ([key, value]) => {
@@ -112,7 +111,7 @@ const OurReviews = () => {
                     </Grid>
                 </Box>
             </Container>
-            
+
             <Footer />
         </>
     );

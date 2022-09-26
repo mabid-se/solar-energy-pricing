@@ -12,8 +12,6 @@ const OurMission = () => {
 
             <OMHeader />
 
-            {/* paste Missing Section here */}
-
             <Benefits />
 
             <Footer />

@@ -59,7 +59,7 @@ const CalculatorForm = () => {
                             <Grid item xs={6} sm={6} md={6} lg={6} xl={6} sx={{ paddingRight: { xs: 1, sm: 2, md: 3, lg: 4, xl: 5 }, }} >
                                 <FormControl variant="standard" fullWidth>
                                     <InputLabel id="homeowner-select-label">You're Homeowner?</InputLabel>
-                                    
+
                                     <Select variant="standard" labelId="homeowner-select-label" id="homeOwner-select" value={homeOwner} onChange={homeOwnerChangeHandler} label="You Own a Home or Not?" >
                                         <MenuItem value="yes">Yes</MenuItem>
                                         <MenuItem value="no">No</MenuItem>
@@ -85,7 +85,7 @@ const CalculatorForm = () => {
                             <Grid item xs={6} sm={6} md={6} lg={6} xl={6} sx={{ paddingRight: { xs: 1, sm: 2, md: 3, lg: 4, xl: 5 }, }} >
                                 <FormControl variant="standard" fullWidth>
                                     <InputLabel id="roof-shade-select-label">Roof Shade</InputLabel>
-                                    
+
                                     <Select variant="standard" labelId="roof-shade-select-label" id="roof-shade-select" value={roofShade} onChange={roofShaderChangeHandler} label="How much Roof Shade your home has?">
                                         <MenuItem value="no shade">No Shade</MenuItem>
                                         <MenuItem value="a little shade">A Little Shade</MenuItem>

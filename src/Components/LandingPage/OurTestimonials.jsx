@@ -72,7 +72,7 @@ const OurTestimonials = () => {
                                             </Typography>
 
                                             <Typography textAlign="center" marginTop={1}>
-                                                <Rating readOnly value={5}/>
+                                                <Rating readOnly value={5} />
                                             </Typography>
                                         </Grid>
                                     </Grid>
@@ -104,7 +104,7 @@ const OurTestimonials = () => {
                                             </Typography>
 
                                             <Typography textAlign="center" marginTop={1}>
-                                                <Rating readOnly value={3}/>
+                                                <Rating readOnly value={3} />
                                             </Typography>
                                         </Grid>
                                     </Grid>

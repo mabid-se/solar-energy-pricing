@@ -22,7 +22,7 @@ const CustomCarousel = () => {
                         Solar panel contains photovoltaic cells which capture the sun's<br />energy and cover it to electricity.
                     </Typography>
                 </Grid>
-                
+
                 <Grid item marginY={5}>
                     <Typography variant="h6" fontWeight={400}>
                         EnergyBillCruncher provides homeowners with a unique online marketplace to shop for solar installers. After you run a side by side comparison, we’ll match

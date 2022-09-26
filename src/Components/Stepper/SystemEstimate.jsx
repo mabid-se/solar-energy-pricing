@@ -5,8 +5,6 @@ const SystemEstimate = (props) => {
 
     return (
         <Box>
-
-            {/* =========== Top Heading Section =========== */}
             <Container sx={{ marginTop: 10, }} >
                 <Grid container
                     direction="row" justifyContent="space-around" alignItems="center" spacing={2}
@@ -19,8 +17,6 @@ const SystemEstimate = (props) => {
                 </Grid>
             </Container>
 
-
-            {/* =========== Calculations Boxes Section =========== */}
             <Container>
                 <Grid container
                     direction="row" justifyContent="space-around" alignItems="center" spacing={2}
@@ -73,8 +69,6 @@ const SystemEstimate = (props) => {
                 </Grid>
             </Container>
 
-
-            {/* =========== Information Text Section =========== */}
             <Container>
                 <Grid container direction="row" justifyContent="space-around" alignItems="center" spacing={2}
                     sx={{ padding: { xs: 2, sm: 4, md: 6, lg: 5, xl: 11 }, }} >
@@ -85,7 +79,6 @@ const SystemEstimate = (props) => {
                     </Grid>
                 </Grid>
             </Container>
-
 
             {/* =========== Three Cards Section =========== */}
             <Container>

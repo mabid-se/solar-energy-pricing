@@ -18,7 +18,7 @@ import "../../assets/CSS/RequestCompleted.css";
 
 const RequestCompleted = () => {
     const navMe = useNavigate();
-        
+
     const gotoSiteHandler = () => {
         window.location.replace('https://google.com');
     }
@@ -207,6 +207,7 @@ const RequestCompleted = () => {
                                     </CardContent>
                                 </Card>
                             </Grid>
+                            
                             <Grid item>
                                 <Card elevation={3}>
                                     <CardContent>
@@ -252,8 +253,6 @@ const RequestCompleted = () => {
                                     </CardContent>
                                 </Card>
                             </Grid>
-
-
                         </Grid>
                     </Grid>
                 </Grid>

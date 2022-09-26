@@ -2,7 +2,6 @@ import { Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
 import Footer from "../Components/Footer";
-import MainNavbar from "../Components/MainNavbar";
 import ResourcesNavbar from "../Components/ResourcesNavbar";
 import FrequentlyAskedQuestions from "./resources/FrequentlyAskedQuestions";
 import Solar101 from "./resources/Solar101";

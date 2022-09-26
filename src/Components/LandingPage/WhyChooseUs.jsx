@@ -1,10 +1,8 @@
 
 import React from "react";
 
-import { Box, Container, Grid, Table, TableBody, TableCell, TableContainer, TableRow, Typography } from "@mui/material";
-import savings from "../../assets/images/savings.png";
+import { Box, Grid, Typography } from "@mui/material";
 import map from "../../assets/images/map.png";
-import toDoList from "../../assets/images/toDoList.png";
 
 const WhyChooseUs = () => {
     return (

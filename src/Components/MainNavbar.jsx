@@ -62,8 +62,6 @@ const MainNavbar = (props) => {
                         </Typography>
 
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-
-                            {/* Mobile Menu Button */}
                             <IconButton
                                 size="large"
                                 aria-label="account of current user"
@@ -74,7 +72,6 @@ const MainNavbar = (props) => {
                                 <MenuIcon />
                             </IconButton>
 
-                            {/* Menu Items */}
                             <Menu
                                 id="menu-appbar" keepMounted anchorEl={anchorElNav}
                                 anchorOrigin={{ vertical: 'bottom', horizontal: 'left', }}

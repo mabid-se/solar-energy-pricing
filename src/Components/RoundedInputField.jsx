@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import LoadingButton from '@mui/lab/LoadingButton';
-import "../assets/CSS/RoundedInputField.css" // remove this
 import projectSettings from "../assets/Js/projectSettings";
 import { callAPI } from "../assets/Js/apiConfig";
 import { FormControl, OutlinedInput } from "@mui/material";
@@ -70,7 +69,6 @@ const RoundedInputField = ({ onAddHandler }) => {
             borderBottomRightRadius: "50px",
             backgroundColor: "#00b964",
             border: "none",
-            // textAlign: "center",
             fontWeight: "700",
             fontSize: "20px",
             textTransform: "none",
@@ -86,13 +84,6 @@ const RoundedInputField = ({ onAddHandler }) => {
                         width: { xs: '160px', sm: '195px', md: '245px', lg: '245px', xl: '245px' },
                         height: { xs: '50px', sm: '55px', md: '75px', lg: '75px', xl: '75px' },
                         input: { textAlign: "center" },
-
-                        // '&:hover': {
-                        //     '&$notchedOutline': {
-                        //         borderColor: '#f00',
-                        //     }
-                        // },                     
-
                         '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
                             border: 'none',
                         },

@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 import LandingPage from "./Pages/LandingPage";
 import Incentives from "./Pages/Incentives";
-// import AboutUs from "./Pages/AboutUs";
-// import Resources from "./Pages/Resources";
 import Blog from "./Pages/Blog";
 import OurMission from "./Pages/about-us/OurMission";
 import Company from "./Pages/about-us/Company";
@@ -32,22 +30,17 @@ function App() {
                 <Route exact path="/flow/tel" element={<BillingStepper />} />
                 <Route exact path="/confirmation" element={<BillingStepper />} />
                 <Route path="/incentives" element={<Incentives />} />
-                {/* <Route path="/about_us" element={<AboutUs />} />
-                <Route path="/resources" element={<Resources />} /> */}
                 <Route path="/blog" element={<Blog />} />
-                
-                
+
                 <Route path="/about_us/mission" element={<OurMission />} />
                 <Route path="/about_us/company" element={<Company />} />
                 <Route path="/about_us/reviews" element={<OurReviews />} />
                 <Route path="/about_us/contact" element={<ContactUs />} />
 
-
                 <Route path="/resources/calculator" element={<SolarCalculator />} />
                 <Route path="/resources/faq" element={<FrequentlyAskedQuestions />} />
                 <Route path="/resources/system_output" element={<SystemOutput />} />
                 <Route path="/resources/101" element={<Solar101 />} />
-
             </Routes>
         </Router>
     );

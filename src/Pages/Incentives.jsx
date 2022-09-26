@@ -3,17 +3,16 @@ import React from "react";
 import Footer from "../Components/Footer";
 import MainNavbar from "../Components/MainNavbar";
 
-const Incentives = () =>{
-    return(
+const Incentives = () => {
+    return (
         <>
-        <MainNavbar />
+            <MainNavbar />
 
-        <Typography variant="h2" marginY={12} paddingY={12} textAlign="center">
+            <Typography variant="h2" marginY={12} paddingY={12} textAlign="center">
                 You're on Incentives Page
             </Typography>
 
-        <Footer />
-        
+            <Footer />
         </>
     );
 };

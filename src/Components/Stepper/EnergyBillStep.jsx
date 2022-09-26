@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button, Card, CardActions, CardContent, Container, Grid, Typography, Box } from "@mui/material";
+import { Button, Card, CardActions, CardContent, Grid, Typography, Box } from "@mui/material";
 
 import MonthlyBillSlider from "../MonthlyBillSlider";
 import SingleScreenHeader from "./SingleScreenHeader";

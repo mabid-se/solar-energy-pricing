@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Box, Container } from "@mui/material";
+import { useNavigate } from "react-router-dom";
+
 import EnergyBillStep from "./Stepper/EnergyBillStep";
 import HomeOwner from "./Stepper/HomeOwner";
-import ElectricityProvider from "./Stepper/ElectricityProvider";
 import RoofShade from "./Stepper/RoofShade";
 import PropertyAddress from "./Stepper/PropertyAddress";
 import PersonalInformation from "./Stepper/PersonalInformation";
@@ -12,13 +13,11 @@ import RequestCompleted from "./Stepper/RequestCompleted";
 import MoreInformation from "./Stepper/MoreInformation";
 import StepperNavbar from "./Stepper/StepperNavbar";
 import StepperFooter from "./Stepper/StepperFooter";
-import { useNavigate } from "react-router-dom";
+
 const BillingStepper = () => {
     const navigate = useNavigate();
     let setProgress = 12;
-    let steps = ["/flow/powerbill", "/flow/homeowner",
-        // "/flow/provider",
-        "/flow/roof_shade", "/flow/address", "/flow/name", "/flow/email", "/flow/tel"];
+    let steps = ["/flow/powerbill", "/flow/homeowner", "/flow/roof_shade", "/flow/address", "/flow/name", "/flow/email", "/flow/tel"];
     const [activeStep, setActiveStep] = useState(0);
     const [activeStepUrl, setActiveStepUrl] = useState("/flow/powerbill");
 
@@ -129,19 +128,7 @@ const BillingStepper = () => {
                         </Container>
                     </>)
                     ;
-            // case steps[2]:
-            //     return (
-            //         <>
-            //             <Container sx={{ paddingX: { sm: 10, md: 15, lg: 15, xl: 20 }, }} >
-            //                 <ElectricityProvider
-            //                     handleNext={handleNext}
-            //                     goBack={handlePrev}
-            //                     isDisabled={activeStep}
-            //                     progValue={setProgress} />
-            //                 <MoreInformation data={moreInfoData.electricityProvider} />
-            //             </Container>
-            //         </>
-            //     );
+
             case steps[2]:
                 return (
                     <>

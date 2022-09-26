@@ -30,7 +30,7 @@ const FindYourEligibility = () => {
                         <Grid item xs={12} sm={12} md={4} lg={4} xl={4} padding={2}>
                             <Grid container direction="row" justifyContent="space-evenly" alignItems="center" display="table">
                                 <Grid item xs={7} sm={7} md={8} lg={9} xl={9} padding={3} display="table-cell" sx={{ background: "#03458D", width: '100%' }}>
-                                    <img src={mapRounded}  alt="map-png" width="10%" height="auto" />
+                                    <img src={mapRounded} alt="map-png" width="10%" height="auto" />
 
                                     <Typography variant="body2" marginTop={1} color="#ffffff">
                                         We will find you the biggest rebates and incentives currently offered in you region.
@@ -39,7 +39,7 @@ const FindYourEligibility = () => {
 
                                 <Grid item xs={5} sm={5} md={4} lg={3} xl={3} display="table-cell" padding={1} sx={{ background: '#6FB9FF' }} >
                                     <Grid container justifyContent="center" alignContent="center" direction="row">
-                                        <img src={mapSq}  alt="map-png" width="80%" height="auto" />
+                                        <img src={mapSq} alt="map-png" width="80%" height="auto" />
                                     </Grid>
                                 </Grid>
                             </Grid>
@@ -74,7 +74,7 @@ const FindYourEligibility = () => {
                         <Grid item xs={12} sm={12} md={4} lg={4} xl={4} padding={2}>
                             <Grid container direction="row" justifyContent="space-evenly" alignItems="center" display="table">
                                 <Grid item xs={7} sm={7} md={8} lg={9} xl={9} padding={3} display="table-cell" sx={{ background: "#03458D", width: '100%' }}>
-                                    <img src={savingsCircled}  alt="map-png" width="10%" height="auto" />
+                                    <img src={savingsCircled} alt="map-png" width="10%" height="auto" />
 
                                     <Typography variant="body2" marginTop={1} color="#ffffff">
                                         Tutorials <br />How to customize <br /> the WooCommerce Shop Page
@@ -83,7 +83,7 @@ const FindYourEligibility = () => {
 
                                 <Grid item xs={5} sm={5} md={4} lg={3} xl={3} display="table-cell" padding={1} sx={{ background: '#6FB9FF' }} >
                                     <Grid container justifyContent="center" alignContent="center" direction="row">
-                                        <img src={savingsSquared}  alt="map-png" width="80%" height="auto" />
+                                        <img src={savingsSquared} alt="map-png" width="80%" height="auto" />
                                     </Grid>
                                 </Grid>
                             </Grid>

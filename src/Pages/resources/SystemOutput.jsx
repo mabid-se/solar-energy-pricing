@@ -9,7 +9,7 @@ const SystemOutput = () => {
     return (
         <>
             <ResourcesNavbar />
-        
+
             <Container sx={{ marginTop: 28, paddingBottom: 6 }}>
                 <SystemOut />
             </Container>

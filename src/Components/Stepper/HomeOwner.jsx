@@ -22,7 +22,7 @@ const HomeOwner = (props) => {
     const handlerHowner = (e) => {
         e.preventDefault();
         setIsHomeOwner(e.currentTarget.value);
-        
+
         if (e.currentTarget.value === "yes") {
             props.handleNext();
             navMe("../flow/roof_shade",);
